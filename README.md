@@ -1,3 +1,19 @@
+React Test App-2
+
+if time less than 12pm
+So it's going to say "Good morning"
+ then the text should show up as green.
+
+if the current time is between midnight and 12 PM so midday, 
+it's gonna say "Good afternoon"
+then the text should show up as yellow.
+
+if it's currently between midday and 6:00 PM, and
+it's going to say good evening if it's between 6:00 PM and midnight.
+ then the text should show up as blue,
+
+
+
 ## Running React on Repl.it
 
 [React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
