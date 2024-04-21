@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
-
+// importing component heading
+import Heading from './Heading'
 const date=new Date();
 const currenthour=date.getHours();
 let greet;
@@ -22,8 +23,15 @@ else{
   greet="Good Evening";
   customStyle.color="blue";
 }
+
 ReactDOM.render(
- < h1 className='heading' style={customStyle}> {greet}</h1>
-,
+  <div>
+    <div>  
+      {/* rendaring component */}
+      <Heading />
+    </div>
+ <div className='heading' style={customStyle}> {greet}</div>
+  </div>
+    ,
   document.getElementById('root')
 )
